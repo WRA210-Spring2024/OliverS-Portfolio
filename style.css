@@ -13,12 +13,32 @@ p {
 
 }
 
+a {
+    color: #7FFA9E;
+}
+
+.nav-link {
+    color:#7FFA9E ;
+
+}
+
+.nav-link:hover {
+    color: #71DE8C; 
+}
+
 
 body{
     background-color: #48317B;
-    font-size: 120%;
+    font-size: 120%; 
+    background-image: url("portback.png");   
+}
 
-    
+#navbar{
+    background-color:black ;
+}
+
+#nav-item {
+    color: #7FFA9E ;
 }
 
 #titletext{
@@ -37,7 +57,7 @@ body{
     padding: 20px; 
     padding-top: 40px;
     height: 90%;
-    width: 90%;
+    width: 50lh;
     text-align: center;
 
 }
