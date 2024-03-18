@@ -47,7 +47,13 @@ body{
     box-shadow: #33255C;
     border-radius: 30px;
 }
+#button:hover {background-color: #E0AD69}
 
+#button:active {
+  background-color: #E0AD69;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 #navbar{
     background-color:black ;
 }
@@ -57,7 +63,7 @@ body{
 }
 
 #titletext{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -73,8 +79,11 @@ body{
     padding-top: 40px;
     height: 90%;
     width: 50lh;
-    text-align: center;
+}
 
+hr{
+    height: 15px;
+    background-color: #FAC176;
 }
 
 .containers {
@@ -90,3 +99,33 @@ body{
     justify-content: center;
     gap: 50px;
 }
+
+.navbar {
+    font-family: "Lexend", sans-serif;
+    width: 100%;
+    background-color: #48317B;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: #FAC176;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #33255C;
+  }
+  
+  .active {
+    background-color:;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
