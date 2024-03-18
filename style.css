@@ -1,7 +1,12 @@
-h1,h2,h3,h4,h5,h6{
+h1{
     font-family: "Domine", serif;
     color: #7FFA9E;
     font-size: 300%;
+  }
+
+  h2,h3,h4,h5,h6{
+    font-family: "Domine", serif;
+    color: #FAC176;
   }
 
 
@@ -33,6 +38,16 @@ body{
     background-image: url("portback.png");   
 }
 
+#button{
+    font-family: "Lexend", sans-serif;
+    font-size: 110%;
+    background-color: #FAC176;
+    padding: 20px 50px; 
+    color: #48317B;
+    box-shadow: #33255C;
+    border-radius: 30px;
+}
+
 #navbar{
     background-color:black ;
 }
@@ -42,7 +57,7 @@ body{
 }
 
 #titletext{
-    margin-bottom:65%;
+    margin-bottom: 80px;
     justify-content: center;
     align-content: center;
     text-align: center;
