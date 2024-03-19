@@ -9,7 +9,10 @@ h1{
     color: #FAC176;
   }
 
-
+img{
+    border: 4px solid #FAC176;
+    border-radius: 8px;
+}
 
 p { 
     font-family: "Lexend", sans-serif;
@@ -33,9 +36,9 @@ a {
 
 
 body{
-    background-color: #48317B;
+    background-color: #280E4B;
     font-size: 120%; 
-    background-image: url("portback.png");   
+    background-image: ;   
 }
 
 #button{
@@ -100,10 +103,14 @@ hr{
     gap: 50px;
 }
 
+.navbar-text{
+    color: lightslategrey;
+}
+
 .navbar {
     font-family: "Lexend", sans-serif;
     width: 100%;
-    background-color: #48317B;
+    background-color: #280E4B;
     overflow: auto;
   }
   
@@ -128,4 +135,19 @@ hr{
       float: none;
       display: block;
     }
+  }
+
+  /* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("citybackground.jpg");
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
