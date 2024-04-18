@@ -67,8 +67,7 @@ a {
 
 body{
     background-color: #280E4B;
-    font-size: 120%; 
-    background-image: ;   
+    font-size: 120%;   
 }
 
 #button{
@@ -223,4 +222,8 @@ hr{
   display: flexbox;
 
 
+}
+
+#back-to-top{
+  position:fixed!important; bottom:14px!important; right:12px!important; z-index:1!important;opacity:.4;font-size:22px;color:white!important;padding:8px;
 }
