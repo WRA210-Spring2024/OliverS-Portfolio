@@ -16,6 +16,16 @@ li{
     justify-content: center;
     padding: 7px;
 
+
+}
+
+ul.lis{
+  font-family: "Lexend", sans-serif;
+  color: #FAC176;
+  justify-content: center;
+  padding: 7px;
+  display: inline-block;
+
 }
 
 ul{
@@ -102,6 +112,12 @@ body{
     padding-top: 40px;
     height: 90%;
     width: 50lh;
+}
+#boxpic {
+  border: 3px solid #FAC176;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 hr{
