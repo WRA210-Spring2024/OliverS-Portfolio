@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Required meta tags --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link href="./style.css" rel="stylesheet" />
+<!-- imported icons for navbar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <title>Oliver Siemionek</title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>      
+      <a href="resume.html">Resume</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About Me</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+       <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script> 
+
+    </div>
+    <div class = "hero-image">
+      <div class = "containers">
+        <div class = "slide">
+       <h1 style = "text-align:center;margin-top: 20%;">Oliver Siemionek</h1>
+       <center><hr style = "background-color: #FAC176;height: 2px;width: 33%;opacity: 100%;">
+       </center>
+        <div id = "titletext">
+        <h4>Welcome!</h4>
+            <p style = "margin-bottom: 60%;"> 
+               I'm an experience designer dedicated to creating captivating experiences. Explore my work to see how I blend creativity and empathy to craft intuitive interfaces and engaging interactions.
+             </p>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+    <div class="slide">
+    <div id="boxhome" class="col sm-4 lg-6">
+      <h1 style = "align-self:center;">Home Page</h1>
+      <p style="margin-top: 70px;">Welcome to my Portfolio Website! Here, I blend creativity and technology to craft innovative experiences. From sleek designs to intuitive interfaces, I'm all about pushing boundaries and delivering results.
+      </p>
+      <hr style = "background-color: #FAC176;color: #FAC176;height: 2px;opacity: 100%">
+    <div class="row" > 
+        <div class="col sm-3 lg-6" > 
+              <p> 
+                Dive into my resume to explore the skills, expertise, and experiences that shape my role as an experience architect. Discover how my unique background and achievements can contribute to your next project. 
+            </p>
+            <button id="button" onclick="location.href='resume.html'"> Resume </button>
+        </div>
+          <div class="col sm-4 lg-6">
+            <p>
+              With a focus on user-centric design, I specialize in transforming complex challenges into intuitive solutions. Explore my portfolio to see how I blend innovation with empathy to create engaging experiences. Let's collaborate and shape the perfect solution for your needs.
+           </p>
+           <button id="button" onclick="location.href='portfolio.html'"> Portfolio </button>
+          </div>
+          <div class="col sm-4 lg-6">
+            <p>
+              Get to know the mind behind the experiences! Delve into my journey, inspirations, and design philosophy. Discover what drives me to create immersive digital experiences that leave a lasting impact. 
+           </p>
+           <button id="button" onclick="location.href='about.html'"> About Me </button>
+          </div>
+    </div>
+  </div>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
