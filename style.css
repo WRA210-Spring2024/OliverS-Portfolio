@@ -79,6 +79,7 @@ body{
     color: #48317B;
     box-shadow: #33255C;
     border-radius: 30px;
+    align-self: center;
 }
 #button:hover {background-color: #E0AD69}
 
@@ -227,4 +228,87 @@ hr{
 
 #back-to-top{
   position:fixed!important; bottom:14px!important; right:12px!important; z-index:1!important;opacity:.4;font-size:22px;color:white!important;padding:8px;
+}
+
+@media screen and (max-width: 600px) {
+   #boxhome {
+    border: 3px solid #FAC176;
+    border-radius: 8px;
+    padding: 20%; 
+    padding-top: 20%;
+    padding-right:15%;
+    padding-left: 15%;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 96%;
+    width: 93%;
+    display: flexbox;
+    }
+
+    .col{
+  display:flex;
+  flex-wrap:wrap;
+  width: 100%;
+  }
+  #button{
+     align-self: center;
+     justify-content: center;
+     margin: auto;
+  }
+  h1{
+    align-self: center;
+    margin: auto;
+  }
+    h2,h3,h4,h5,h6{
+    align-self: center;
+    margin: auto;
+  }
+
+  .boxpic {
+    display: flex;
+    height: 50%;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .col1 {
+    display:flexbox;
+    width: 100%;
+  }
+  }
+  @media screen and (max-width: 600px) {
+  .img1 {
+    display: flexbox;
+    width: 100px;
+
+  }
+  .pimage1{
+    width: 100%;
+  }
+  .pimage{
+    width: 100%;
+  }
+  .pdf{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+  }
+  }
+
+.col1 {
+  display: flexbox;
+  width: 50%;
+  padding-right: 80px;
+}
+
+.img1 {
+  display: flexbox;
+  width: 300px;
+
+}
+
+.pimage1{
+width: 120px;
 }
