@@ -1,6 +1,7 @@
 .slide{
   display:flex;
   flex-direction:column;
+  overflow-x: hidden;
   }
 
 h1{
@@ -113,6 +114,7 @@ body{
     padding-top: 40px;
     height: 90%;
     width: 50lh;
+    margin-bottom: 50px;
 }
 #boxpic {
   border: 3px solid #FAC176;
@@ -224,9 +226,7 @@ hr{
   display: flexbox;
   align-self: center;
   text-align: center;
-  margin: auto;
-  width: 100%;
-
+  margin-bottom: 100px;
 }
 
 #back-to-top{
@@ -245,7 +245,6 @@ hr{
     margin-right: 15px;
     height: 96%;
     width: 93%;
-    display: flexbox;
     }
 
     .col{
@@ -298,6 +297,15 @@ hr{
     margin: auto;
     justify-content: center;
   }
+  .resum{
+  display: flexbox;
+  width: 100%;
+  margin-bottom: 50px;
+
+}
+#y{
+margin-left: -11.5%
+}
   }
 
 .col1 {
