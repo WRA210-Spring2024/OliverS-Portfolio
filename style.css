@@ -222,7 +222,10 @@ hr{
 
 .resum{
   display: flexbox;
-
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
 
 }
 
