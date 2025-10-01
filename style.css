@@ -115,7 +115,7 @@ body{
     text-align: center;
     padding: 20px; 
     padding-top: 40px;
-    height: 90%;
+    height: 100%
     width: 50lh;
     margin-bottom: 50px;
     margin-top: 30px;
@@ -144,6 +144,11 @@ hr{
     align-items: center;
     justify-content: center;
     gap: 50px;
+}
+
+.row{
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -274,7 +279,7 @@ hr{
   }
 
   .boxpic {
-    display: flex;
+    justify-content: center;
     height: 50%;
   }
   .container{
