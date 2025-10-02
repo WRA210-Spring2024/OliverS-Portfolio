@@ -42,6 +42,7 @@ ul{
   }
   h2{
      text-decoration: underline;
+     text-decoration-thickness: 2px;
      font-size: 200%;
      max-width: 100%;
   }
@@ -277,6 +278,7 @@ hr{
     .r1 {
     font-size: 200%;
     text-decoration: underline;
+    text-decoration-thickness: 2px;
     padding-bottom: 20px;
   }
 
