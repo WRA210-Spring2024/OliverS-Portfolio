@@ -128,11 +128,11 @@ body{
     margin-right: 40px;
     text-align: center;
     padding: 20px; 
-    padding-top: 40px;
+    padding-top: 30px;
     height: 100%
     width: 50lh;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 #boxpic {
   border: 3px solid #FAC176;
@@ -192,6 +192,9 @@ hr{
     width: 100%;
     background-color: #280E4B;
     overflow: auto;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 1;
   }
   
   .topnav a {
