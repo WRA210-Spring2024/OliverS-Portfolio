@@ -1,9 +1,4 @@
-.slide{
-  display:flex;
-  flex-direction:column;
-  overflow-x: hidden;
 
-  }
 
 
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
