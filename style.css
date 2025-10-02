@@ -329,11 +329,7 @@ hr{
   }
   }
   @media screen and (max-width: 600px) {
-  .img1 {
-    display: flexbox;
-    width: 100px;
 
-  }
   .pimage1{
     width: 100%;
   }
@@ -364,10 +360,16 @@ margin-left: -11.5%
 
 .img1 {
   display: flexbox;
-  width: 300px;
+  width: 40vw;
 
 }
 
 .pimage1{
 width: 120px;
 }
+
+  @media screen and (max-width: 600px) {
+    .img1{
+      width: 50vw;
+    }
+  }
