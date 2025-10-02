@@ -170,7 +170,7 @@ hr{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("thunder.gif");
 
     /* Set a specific height */
-    height: 100vh;
+    height: 100%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
