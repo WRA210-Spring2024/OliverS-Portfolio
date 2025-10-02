@@ -1,3 +1,10 @@
+.slide{
+  display:flex;
+  flex-direction:column;
+  overflow-x: hidden;
+
+  }
+
 
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     content: "\f0c9";
@@ -42,7 +49,6 @@ ul{
   }
   h2{
      text-decoration: underline;
-     text-decoration-thickness: 2px;
      font-size: 200%;
      max-width: 100%;
   }
@@ -148,7 +154,7 @@ hr{
 }
 
 .slide {
-    height: 100% ;
+    height: 100vh ;
     width: 100%;
     display: grid;
     align-items: center;
@@ -168,9 +174,10 @@ hr{
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("thunder.gif");
-
+  
     /* Set a specific height */
-    height: 100%;
+    height: 100vh;
+    width: 100%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -278,7 +285,6 @@ hr{
     .r1 {
     font-size: 200%;
     text-decoration: underline;
-    text-decoration-thickness: 2px;
     padding-bottom: 20px;
   }
 
