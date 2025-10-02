@@ -59,6 +59,7 @@ p {
     color: #FAC176;
     justify-content: center; 
     padding-bottom: 15px;
+    padding: 15px;
 
 }
 
@@ -319,6 +320,7 @@ hr{
     display: flex;
     justify-content: center;
     margin: auto;
+    width: auto;
   }
   .container1{
     justify-content: center;
@@ -407,3 +409,15 @@ margin-left: -11.5%
       font-size: 50%;
     }
   }
+
+  @media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: none;
+    }
+}
