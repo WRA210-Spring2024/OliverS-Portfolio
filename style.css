@@ -1,5 +1,54 @@
 
+.footer{
+  display: inline-flex;
+  margin: 4%;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  justify-content: center;
+}
+.footersection{
+    color: #FAC176;
+    display: flexbox;
+    text-decoration-thickness: 2px;
+    width: fit-content;
+    padding-left: 5%;
+}
 
+@media screen and (max-width: 768px) {
+  .footer{
+    margin: 10%;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  }  
+.footerheader{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  padding-bottom: 2%;
+
+}
+
+.footerlinks{
+  padding-bottom: 4px;
+  text-decoration: underline;
+
+}
+.footerlinks:hover {
+  cursor: pointer;
+  color: #280E4B;
+  background-color: #71DE8C;
+
+}
+.quote{
+  margin-top: 13px;
+  margin-left: 2vw;
+  width: 50%;
+  float: right;
+}
 
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     content: "\f0c9";
@@ -529,25 +578,38 @@ font-size: 80%;
 
   .goback{
   position: fixed;
-  top: 15%;
+  top: 14%;
   left: 5%;
   z-index: 1;
-  background-color: #33255C;
+    padding-top: 5px;
+    padding-right: 4px;
+    padding-left: 4px;  
   justify-self: center;
   align-items: center;
+  vertical-align: middle;
   margin: auto;
+  animation: .2s ease-out;
+  text-decoration: none;
+
 }
 
 .goback:hover{
   background-color: #E0AD69;
 }
-.goback.span{
+.goback span{
+    transition: .2s ease-out;
 
+}
+.goback:hover span{
+
+  transform: translateY(-2px);
 
 
 }
   @media screen and (max-width: 768px) {
 .goback{
+
+}
  
 }
   
