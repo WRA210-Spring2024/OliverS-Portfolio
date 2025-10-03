@@ -215,7 +215,6 @@ hr{
   }
 
   .topnav a.active {
-    background-color:;
   }
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -227,9 +226,9 @@ hr{
     }
   }
 
-  (min-width: 600px) {
+  @media screen and (min-width: 600px) {
     .topnav .icon{
-        display: block;
+        display: none;
     }
 
 
@@ -516,33 +515,6 @@ margin-left: -11.5%
         width: auto;
     }
 
-.goback{
-    position: fixed;
-  top: 7%;
-  left: 5%;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  padding: .5rem;
-  text-decoration: none;
-  z-index: 99;
-  animation: .2s ease-out;
-  max-width: 100%;
-}
-.goback:hover{
-  background-color: #7FFA9E;
-}
-.goback span{
-  font-size: 2rem;
-  text-align: center;
-
-
-}
-  @media screen and (max-width: 768px) {
-.goback{
-  left:40%;
-}
   }
 
   .presize{
@@ -554,3 +526,28 @@ font-size: 120%;
 font-size: 80%;
    }
   }
+
+  .goback{
+  position: fixed;
+  top: 15%;
+  left: 5%;
+  z-index: 1;
+  background-color: #33255C;
+  justify-self: center;
+  align-items: center;
+  margin: auto;
+}
+
+.goback:hover{
+  background-color: #E0AD69;
+}
+.goback.span{
+
+
+
+}
+  @media screen and (max-width: 768px) {
+.goback{
+ 
+}
+  
