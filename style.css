@@ -302,6 +302,7 @@ hr{
   h1{
     align-self: center;
     margin: auto;
+    font-size: 250%;
   }
    h2{
     align-self: center;
@@ -514,3 +515,42 @@ margin-left: -11.5%
         margin: auto;
         width: auto;
     }
+
+.goback{
+    position: fixed;
+  top: 7%;
+  left: 5%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: .5rem;
+  text-decoration: none;
+  z-index: 99;
+  animation: .2s ease-out;
+  max-width: 100%;
+}
+.goback:hover{
+  background-color: #7FFA9E;
+}
+.goback span{
+  font-size: 2rem;
+  text-align: center;
+
+
+}
+  @media screen and (max-width: 768px) {
+.goback{
+  left:40%;
+}
+  }
+
+  .presize{
+font-size: 120%;
+  }
+
+   @media screen and (max-width: 768px) {
+    .presize{
+font-size: 80%;
+   }
+  }
