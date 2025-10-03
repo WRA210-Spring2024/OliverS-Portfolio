@@ -156,6 +156,7 @@ hr{
     justify-content: center;
     gap: 50px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .row{
