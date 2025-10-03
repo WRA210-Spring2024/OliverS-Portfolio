@@ -433,6 +433,7 @@ margin-left: -11.5%
   text-decoration: none;
   z-index: 99;
   animation: .2s ease-out;
+  max-width: 100%;
 }
 
 
