@@ -48,7 +48,6 @@ ul{
      max-width: 100%;
   }
   h3{
-    padding-bottom: 10px;
     font-size: 150%;
   }
 
@@ -127,8 +126,7 @@ body{
     padding-top: 20px;
     padding-right: 5px;
     padding-left: 5px;
-    height: 100%
-    width: 50lh;
+    height: 100%;
     margin-bottom: 50px;
     margin-top: 70px;
 }
@@ -420,4 +418,74 @@ margin-left: -11.5%
     .container, .container-sm {
         max-width: none;
     }
+}
+#scroll{
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAC176;
+  border-radius: 8px;
+  padding: .5rem;
+  text-decoration: none;
+  z-index: 99;
+  animation: .2s ease-out;
+}
+
+
+
+
+
+  @keyframes floating {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+
+  .scrolldown{
+    display: grid;
+    position: absolute;
+    bottom: 10%;
+    right: 47.5%;
+  color: #7FFA9E;
+  transform: translateY(8px);
+  text-decoration: none;
+}
+.scrolldown:hover{
+  color: #7FFA9E;
+}
+.scrolldown span{
+  font-size: 5rem;
+  text-align: center;
+
+  animation: floating 2s infinite;
+
+}
+  @media screen and (max-width: 768px) {
+.scrolldown{
+  right:40%;
+}
+  }
+#scroll span{
+  color: #280E4B;
+  font-size: 2rem;
+  transition: .2s ease-out;
+}
+#scroll:hover{
+  background-color: #E0AD69;
+}
+
+#scroll:hover span{
+  transform: translateY(-4px);
 }
