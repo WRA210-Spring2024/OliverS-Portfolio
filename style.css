@@ -4,6 +4,13 @@
   animation-timeline: view();
   animation-range: entry 20% cover 80vh;
 }
+.fa {
+  width: 50px;
+  text-align: center;
+}
+.fa::before{
+  font-size: 130%;
+}
 
 @keyframes text-appear{
 from{
