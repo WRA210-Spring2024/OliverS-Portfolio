@@ -1,4 +1,33 @@
 
+.autoshow{
+  animation: text-appear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 80vh;
+}
+
+@keyframes text-appear{
+from{
+  opacity: 0;
+  transform: translateY(100px);
+}
+to{
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.autoblur{
+  animation: autobluranimation linear both;
+  animation-timeline: view(50% auto);
+}
+
+@keyframes autobluranimation{
+  0%{filter: blur(20px);}
+  30%{filter: blur(15px);}
+  40%{filter: blur(0px);}
+ 
+}
+
 .footer{
   display: inline-flex;
   margin: 4%;
