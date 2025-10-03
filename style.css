@@ -2,6 +2,12 @@
 .autoshow{
   animation: text-appear both;
   animation-timeline: view();
+  animation-range: entry 0% cover 30vh;
+}
+
+.autoshow1{
+  animation: text-appear both;
+  animation-timeline: view();
   animation-range: entry 20% cover 80vh;
 }
 .fa {
@@ -30,8 +36,9 @@ to{
 
 @keyframes autobluranimation{
   0%{filter: blur(20px);}
-  30%{filter: blur(15px);}
+  30%{filter: blur(10px);}
   40%{filter: blur(0px);}
+
  
 }
 
