@@ -459,7 +459,7 @@ margin-left: -11.5%
   .scrolldown{
     display: grid;
     position: absolute;
-    bottom: 10%;
+    bottom: 1%;
     right: 47.5%;
   color: #7FFA9E;
   transform: translateY(8px);
@@ -491,4 +491,10 @@ margin-left: -11.5%
 
 #scroll:hover span{
   transform: translateY(-4px);
+}
+@media screen and (max-width: 600px) {
+  #scrolldown{
+    font-size: 1rem;
+    bottom: 3%
+  }
 }
