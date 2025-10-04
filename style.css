@@ -659,7 +659,7 @@ font-size: 80%;
 }
 .containerportfolio{
   display: flex;
-  gap: 15px;
+  gap: 60px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
