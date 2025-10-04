@@ -78,6 +78,7 @@ to{
 .footerlinks{
   padding-bottom: 4px;
   text-decoration: underline;
+  display: inline-flex;
 
 }
 .footerlinks:hover {
