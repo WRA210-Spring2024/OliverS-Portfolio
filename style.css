@@ -1,4 +1,5 @@
 
+
 .autoshow{
   animation: text-appear both;
   animation-timeline: view();
@@ -225,6 +226,11 @@ body{
     height: 100%;
     margin-bottom: 50px;
     margin-top: 70px;
+
+  
+}
+#boxhome:before{
+  height: 100px;
 }
 #boxpic {
   border: 3px solid #FAC176;
@@ -551,7 +557,7 @@ margin-left: -11.5%
             }
 
             50% {
-                transform: translateY(-20px);
+                transform: translateY(-10px);
             }
 
             100% {
@@ -572,6 +578,9 @@ margin-left: -11.5%
 }
 .scrolldown:hover{
   color: #7FFA9E;
+  cursor: pointer;
+  background-color: #E0AD69;
+  
 }
 .scrolldown span{
   font-size: 5rem;
@@ -665,7 +674,7 @@ font-size: 80%;
   border: 1px solid #FAC176;
   border-radius: 30px;
   overflow: hidden;
-  width: 30vw;
+  width: 20vw;
   height: fit-content;
   max-height: 50vw;
   box-shadow: 10px 10px #48317B;
@@ -681,11 +690,10 @@ font-size: 80%;
 }
 .portfolioimage{
   width: 100%;
-  height: 70%;
   justify-content: center;
 }
 .portfolioboxtext{
-    font-size: 140%;
+    font-size: 110%;
   }
 @media screen and (max-width: 768px) {
     .containerportfolio {
