@@ -590,7 +590,7 @@ margin-left: -11.5%
 }
   @media screen and (max-width: 768px) {
 .scrolldown{
-  right:40%;
+  right:43%;
 }
   }
 #scroll span{
@@ -606,15 +606,15 @@ margin-left: -11.5%
   transform: translateY(-4px);
 }
 @media screen and (max-width: 600px) {
-  .scrolldown{
-    font-size: 1rem;
+  .scrolldown span{
+    font-size: 3rem;
     bottom: 1%
     
   }
 }
 @media screen and (max-height: 620px) {
-  .scrolldown{
-    font-size: 1rem;
+  .scrolldown span{
+    font-size: 3rem;
     left: 10%;
     
   }
@@ -664,7 +664,7 @@ font-size: 80%;
 }
   @media screen and (max-width: 768px) {
 .goback{
- top: 25%;
+ top: 27%;
 }
  
 }
@@ -677,6 +677,7 @@ font-size: 80%;
   height: fit-content;
   max-height: 50vw;
   box-shadow: 10px 10px #48317B;
+  margin-bottom: 20px;
 }
 .containerportfolio{
   display: flex;
@@ -783,6 +784,14 @@ font-size: 80%;
   }
     @media screen and (max-height: 760px) {
       .nameresize{
-      margin-top: 10%;
+      margin-top: 20vh;
       }
+  
+    }
+        @media screen and (max-width: 760px) {
+      .nameresize{
+      margin-top: 20vh;
+      }
+
+ 
     }
