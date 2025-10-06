@@ -247,6 +247,7 @@ hr{
     justify-content: center;
     gap: 20px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .row{
@@ -773,8 +774,8 @@ font-size: 80%;
   .nameresize{
     margin-top: 20%;
   }
-    @media screen and (max-width: 760px) {
+    @media screen and (max-height: 760px) {
       .nameresize{
-      margin-top: 40%;
+      margin-top: 10%;
       }
     }
