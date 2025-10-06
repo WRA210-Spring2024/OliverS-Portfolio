@@ -257,6 +257,14 @@ hr{
 .row{
   align-items: center;
   justify-content: center;
+  display: flexbox;
+}
+
+.display1{
+  align-items: center;
+  justify-content:center ;
+  display: flexbox;
+  padding-bottom: 4%;
 }
 
 
@@ -644,7 +652,7 @@ font-size: 80%;
 }
   @media screen and (max-width: 768px) {
 .goback{
-
+ top: 25%;
 }
  
 }
