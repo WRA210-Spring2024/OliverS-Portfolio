@@ -104,6 +104,7 @@ h1{
     font-family: "Domine", serif;
     color: #7FFA9E;
     font-size: 350%;
+    padding: 3%;
   }
 
 li{
@@ -237,21 +238,15 @@ hr{
     background-color: #FAC176;
 }
 
-.containers {
-    height: 100vh ;
-    width: 100%;
-    overflow-x: hidden;
-}
 
 .slide {
-    height: 100% ;
+    height: 100vh ;
     width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .row{
@@ -570,6 +565,7 @@ margin-left: -11.5%
     bottom: 1%;
     right: 47.5%;
   color: #7FFA9E;
+  opacity: 75%;
   transform: translateY(8px);
   text-decoration: none;
 }
@@ -579,7 +575,7 @@ margin-left: -11.5%
 .scrolldown span{
   font-size: 5rem;
   text-align: center;
-
+  width: fit-content;
   animation: floating 2s infinite;
 
 }
@@ -604,6 +600,13 @@ margin-left: -11.5%
   .scrolldown{
     font-size: 1rem;
     bottom: 1%
+    
+  }
+}
+@media screen and (max-height: 620px) {
+  .scrolldown{
+    font-size: 1rem;
+    left: 10%;
     
   }
 }
@@ -664,6 +667,7 @@ font-size: 80%;
   width: 30vw;
   height: fit-content;
   max-height: 50vw;
+  box-shadow: 10px 10px #48317B;
 }
 .containerportfolio{
   display: flex;
@@ -696,7 +700,7 @@ font-size: 80%;
   border: 1px solid #FAC176;
   border-radius: 30px;
   overflow: hidden;
-  width: 60vw;
+  width: fit-content;
   
 
 }
@@ -717,4 +721,60 @@ font-size: 80%;
   .fancyportfolio:hover{
     border: 10px solid #71DE8C;
   }
-  
+
+  .fullscroll{
+    display: flex;
+    overflow: hidden;
+    width: 34vw;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .scroller{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   padding-right: 2rem;
+
+    animation: scroll 20s linear infinite;
+    
+  }
+
+
+
+/* 
+ .scroller:hover{
+    animation-play-state: paused;
+  } */
+
+  .scroller li{
+    color: #280E4B;
+    background-color: #FAC176;
+    border-radius: 10px;
+    box-shadow: 5px 5px #33255C;
+  }
+
+
+
+
+    @keyframes scroll{
+    to{
+      transform: translateX(-100%);
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .fullscroll{
+      width: 66vw;
+    }
+  }
+
+  .nameresize{
+    margin-top: 20%;
+  }
+    @media screen and (max-width: 760px) {
+      .nameresize{
+      margin-top: 40%;
+      }
+    }
