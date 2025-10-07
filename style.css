@@ -574,6 +574,7 @@ margin-left: -11.5%
   opacity: 75%;
   transform: translateY(8px);
   text-decoration: none;
+  border-radius: 10px;
 }
 .scrolldown:hover{
   color: #7FFA9E;
