@@ -574,7 +574,7 @@ margin-left: -11.5%
   opacity: 75%;
   transform: translateY(8px);
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .scrolldown:hover{
   color: #7FFA9E;
@@ -621,6 +621,8 @@ margin-left: -11.5%
   }
 }
 .iteachimg{
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 50%;
 }
 
