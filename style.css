@@ -783,7 +783,7 @@ margin-right: 1%;  }
 
     @keyframes scroll{
     to{
-      transform: translateX(-100%);
+      transform: translateX(calc(-100%));
     }
   }
 
