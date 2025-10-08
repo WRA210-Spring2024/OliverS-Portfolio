@@ -141,6 +141,7 @@ ul{
      text-decoration: underline;
      font-size: 200%;
      max-width: 100%;
+     padding: 10px;
   }
   h3{
     font-size: 150%;
@@ -748,7 +749,7 @@ margin-right: 1%;  }
   
 
   .fancyportfolio:hover{
-    border: 10px solid #71DE8C;
+    border: 5px solid #71DE8C;
     box-shadow: 10px 10px #0d0224;
   }
 
