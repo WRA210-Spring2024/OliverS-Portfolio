@@ -104,7 +104,7 @@ to{
 h1{
     font-family: "Domine", serif;
     color: #7FFA9E;
-    font-size: 350%;
+    font-size: 300%;
   }
 
 li{
@@ -309,7 +309,8 @@ hr{
   }
   
   .topnav a:hover {
-    background-color: #33255C;
+    background-color: #E0AD69;
+    color: #33255C;
   }
   
   .topnav .icon {
@@ -404,7 +405,7 @@ hr{
   h1{
     align-self: center;
     margin: auto;
-    font-size: 250%;
+    font-size: 300%;
   }
    h2{
     align-self: center;
@@ -795,10 +796,12 @@ margin-right: 1%;  }
 
   .nameresize{
     margin-top: 20%;
+    font-size: 450%;
   }
     @media screen and (max-height: 760px) {
       .nameresize{
       margin-top: 20vh;
+      font-size: 400%;
       }
   
     }
