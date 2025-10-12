@@ -828,3 +828,13 @@ margin-right: 1%;  }
       border-radius: 12px;
       outline: #FAC176 solid 2px;
     }
+
+    .link{
+      color: #7FFA9E;
+      border-radius: 6px;
+    }
+
+    .link:hover {
+      background-color: #E0AD69;
+      color: #33255C;
+    }
