@@ -823,3 +823,8 @@ margin-right: 1%;  }
       justify-content: center;
       align-items: center;
     }
+
+    .figmapics{
+      border-radius: 12px;
+      outline: #FAC176 solid 2px;
+    }
