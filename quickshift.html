@@ -92,4 +92,23 @@
 arrow_back
 </span>
 </a>
+  <a href="#"  class="backtotop" id="scroll">
+<span class="material-symbols-outlined">arrow_upward</span>
+</a>
+<script>
+// Get the button
+let mybutton = document.getElementById("scroll");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+</script>
   </body>
