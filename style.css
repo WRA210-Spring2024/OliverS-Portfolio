@@ -845,3 +845,15 @@ margin-right: 1%;  }
     .coolhover:hover{
       outline: #7FFA9E solid 4px;
     }
+
+    .scroller li:hover{
+      animation: wiggle .5s linear infinite
+    }
+
+    @keyframes wiggle{
+      0%{}
+      25%{transform: rotateZ(-7deg);}
+      50%{transform: rotateZ(7deg);}
+      75%{transform: rotateZ(-7deg);}
+      100%{transform: rotateZ(7deg);}
+    }
