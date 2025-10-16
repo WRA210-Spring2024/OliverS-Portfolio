@@ -564,9 +564,10 @@ margin-left: -11.5%
                 transform: translateY(0);
             }
 
-            50% {
-                transform: translateY(-10px);
+            33% {
+                transform: translateY(-15px);
             }
+
 
             100% {
                 transform: translateY(0);
@@ -578,10 +579,11 @@ margin-left: -11.5%
     display: grid;
     position: absolute;
     bottom: 1%;
-    right: 47.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   color: #7FFA9E;
   opacity: 75%;
-  transform: translateY(8px);
+  /* transform: translateY(8px); */
   text-decoration: none;
   border-radius: 20px;
 }
@@ -598,15 +600,16 @@ margin-left: -11.5%
   animation: floating 2s infinite;
 
 }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-height: 650px) {
 .scrolldown{
-  right:43%;
+    left: 5%;
 }
   }
 #scroll span{
   color: #280E4B;
   font-size: 2rem;
   transition: .2s ease-out;
+    right: 1%;
 }
 #scroll:hover{
   background-color: #E0AD69;
@@ -622,7 +625,7 @@ margin-left: -11.5%
     
   }
 }
-@media screen and (max-height: 620px) {
+@media screen and (max-height: 650px) {
   .scrolldown span{
     font-size: 3rem;
     left: 10%;
@@ -756,7 +759,7 @@ margin-right: 1%;  }
   .fullscroll{
     display: flex;
     overflow: hidden;
-    width: 34vw;
+    width: 45vw;
     margin: auto;
     padding: 10px;
     -webkit-mask:linear-gradient(90deg, transparent, white 25%, white 75%, transparent );
@@ -776,10 +779,10 @@ margin-right: 1%;  }
 
 
 
-/* 
- .scroller:hover{
+ 
+ /* .scroller:hover{
     animation-play-state: paused;
-  } */
+  }  */
 
   .scroller li{
     color: #280E4B;
@@ -804,8 +807,8 @@ margin-right: 1%;  }
   }
 
   .nameresize{
-    margin-top: 20%;
-    font-size: 450%;
+    margin-top: 25%;
+    font-size: 400%;
   }
     @media screen and (max-height: 800px) {
       .nameresize{
