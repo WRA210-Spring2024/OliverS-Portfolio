@@ -566,16 +566,16 @@ margin-left: -11.5%
 
   @keyframes floating {
             0% {
-                transform: translateY(0);
+                transform: translateY(20);
             }
 
             33% {
-                transform: translateY(-15px);
+                transform: translateY(-10px);
             }
 
 
             100% {
-                transform: translateY(0);
+                transform: translateY(20);
             }
         }
 
