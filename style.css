@@ -11,6 +11,12 @@
   animation-timeline: view();
   animation-range: entry 20% cover 80vh;
 }
+.autoshow2{
+  animation: text-appear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20vh;
+}
+
 .fa {
   width: 50px;
   text-align: center;
