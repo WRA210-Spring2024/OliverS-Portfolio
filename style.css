@@ -818,10 +818,16 @@ margin-right: 1%;  }
     margin-top: 25%;
     font-size: 400%;
   }
+
+     @media screen and (max-width: 790px) {
+      .nameresize{
+        font-size: 350%;
+      }
+     }
+
     @media screen and (max-height: 800px) {
       .nameresize{
       margin-top: 14%;
-      font-size: 400%;
       }
       .slide{
         gap: 8px;
