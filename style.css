@@ -605,7 +605,7 @@ margin-left: -11.5%
   animation: floating 2s infinite;
 
 }
-  @media screen and (max-height: 650px) {
+  @media screen and (max-height: 680px) {
 .scrolldown{
     left: 5%;
 }
@@ -630,7 +630,7 @@ margin-left: -11.5%
     
   }
 }
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 680px) {
   .scrolldown span{
     font-size: 3rem;
     left: 10%;
@@ -642,6 +642,7 @@ margin-left: -11.5%
   margin-bottom: 10px;
   width: 100%;
 }
+
 
 
 
@@ -822,7 +823,9 @@ margin-right: 1%;  }
       margin-top: 14%;
       font-size: 400%;
       }
-  
+      .slide{
+        gap: 8px;
+      }
     }
 
 
@@ -896,3 +899,4 @@ margin-right: 1%;  }
     }
 
     }
+
