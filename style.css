@@ -643,6 +643,8 @@ margin-left: -11.5%
   width: 100%;
 }
 
+
+
    @media screen and (max-width: 768px) {
 .iteachimg{
   width: 60vw;
@@ -880,8 +882,17 @@ margin-right: 1%;  }
       display: inline-flex;
     }
 
+    .emailtext{
+      text-align: center;
+      margin: auto;
+    }
+
     @media screen and (max-width: 768px) {
     .widthfix{
       width: 60vw;
     }
+       .emailtext{
+      font-size: medium;
+    }
+
     }
