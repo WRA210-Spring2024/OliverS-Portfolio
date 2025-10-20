@@ -642,12 +642,31 @@ margin-left: -11.5%
   margin-bottom: 10px;
   width: 100%;
 }
+.iteachimg1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.iteachimg2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 35%;
+}
 
 
 
 
    @media screen and (max-width: 768px) {
 .iteachimg{
+  width: 60vw;
+
+}
+.iteachimg1{
+  width: 60vw;
+
+}
+.iteachimg2{
   width: 60vw;
 
 }
